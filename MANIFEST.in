@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fund_request *.css
+recursive-include fund_request *.csv
+recursive-include fund_request *.html
+recursive-include fund_request *.ico
+recursive-include fund_request *.js
+recursive-include fund_request *.json
+recursive-include fund_request *.md
+recursive-include fund_request *.png
+recursive-include fund_request *.py
+recursive-include fund_request *.svg
+recursive-include fund_request *.txt
+recursive-exclude fund_request *.pyc

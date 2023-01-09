@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "autoname": "format:month_name",
+ "creation": "2022-10-16 03:49:39.115163",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month_name",
+  "budget_amount",
+  "carry_over",
+  "created_at",
+  "budget_amount_copy"
+ ],
+ "fields": [
+  {
+   "fieldname": "month_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Month Name",
+   "options": "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec",
+   "reqd": 1
+  },
+  {
+   "fieldname": "budget_amount",
+   "fieldtype": "Currency",
+   "label": "Budget Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "carry_over",
+   "fieldtype": "Int",
+   "label": "Carry Over",
+   "reqd": 1
+  },
+  {
+   "fieldname": "created_at",
+   "fieldtype": "Data",
+   "label": "Created At",
+   "read_only": 1
+  },
+  {
+   "fieldname": "budget_amount_copy",
+   "fieldtype": "Data",
+   "label": "Budget Amount Copy",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-04 10:48:37.664842",
+ "modified_by": "Administrator",
+ "module": "iPF fund request app",
+ "name": "monthly_budget",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "finance",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
